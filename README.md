@@ -11,15 +11,15 @@
 </p>
 
 ## Table of Contents
-- [Introduction](introduction)
-- [Getting Started](getting-started)
-  + [Connection settings](Connection-settings)
-  + [Remarks](Remarks)
-  + [Provisioning](provisioning)
-  + [Employee Additional Mapping](Employee-Additional-Mapping)
-- [Setup the connector](setup-the-connector)
-- [HelloID Docs](helloid-docs)
 
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+  * [Connection settings](#Connection-settings)
+  * [Remarks](#Remarks)
+  * [Provisioning](#provisioning)
+  * [Employee Additional Mapping](#Employee-Additional-Mapping)
+- [Setup the connector](#setup-the-connector)
+- [HelloID Docs](#helloid-docs)
 
 ## Introduction
 NedapONS is a healthcare application and provides a set of REST API's that allow you to programmatically interact with it's data.
