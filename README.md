@@ -50,14 +50,6 @@ The following settings are required to connect to the API.
 | ----------- | ------------------------------------------              |
 | create.ps1  | Correlates a HelloID person with an employee account in NedapONS and updates the registration profile |
 | update.ps1  | updates the registration profile |
-
-Using this connector you will have the ability to create and manage the following items in Nedap:
-
-Create:
-* Correlates a HelloID person with an employee account in NedapONS and updates the registration profile based on the contracts in condition from the Business Rules
-
-Update:
-* Updates the registration profile of the corresponding employee account as configured in the connector mapping.
 ----------
 
 ###  Employee Additional Mapping
