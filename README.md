@@ -31,7 +31,7 @@ NedapONS is a healthcare application and provides a set of REST API's that allow
 
 ## Getting Started
 
-The _HelloID-Conn-Prov-Target-NedapONS-Weekkaart_ connector is created for both Windows PowerShell 5.1 and PowerShell Core. This means that the connector can be executed in both cloud and on-premises using the HelloID agent.
+The _HelloID-Conn-Prov-Target-NedapONS-Weekkaart_ connector can be executed only on-premises using the HelloID-Agent, because of the mapping file and required certificate to authorize with Nedap.
 
 ### Connection settings
 
@@ -46,15 +46,14 @@ The following settings are required to connect to the API.
 | CSV separation Character| Mapping File CSV Separation Character         |
 
 ### Remarks
-
-- This connector only correlates a HelloID person with an employee account in NedapONS and updates the registration profile 
+- This connector only correlates a HelloID person with one or more employee accounts in NedapONS and updates the registration profile. It updates the registration profile of all the accounts from the contracts in the conditions.
 
 ### Provisioning
 
 | Files       | Description                                             |
 | ----------- | ------------------------------------------              |
-| create.ps1  | Correlates a HelloID person with an employee account in NedapONS and updates the registration profile |
-| update.ps1  | updates the registration profile |
+| create.ps1  | Correlates a HelloID person with a NedapONS employee account and updates the registration profile |
+| update.ps1  | The same script is used for both actions |
 ----------
 
 ###  Employee Additional Mapping
