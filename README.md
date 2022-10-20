@@ -47,6 +47,7 @@ The following settings are required to connect to the API.
 
 ### Remarks
 - This connector only correlates a HelloID person with one or more employee accounts in NedapONS and updates the registration profile. It updates the registration profile of all the accounts from the contracts in the conditions.
+- To empty a weekkaartprofiel use the text '<geen weekkaartprofiel>' as a placeholder.
 
 ### Provisioning
 
