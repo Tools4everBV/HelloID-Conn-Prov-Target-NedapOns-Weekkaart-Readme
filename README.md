@@ -62,10 +62,7 @@ The following settings are required to connect to the API.
 | ------------ | ----------- |
 | Title.ExternalId   | Property of the HelloID primary contract
 | Department.ExternalId  | Property of the HelloID primary contract
-| EducationId   |   Deskundigheidsprofiel > Import Code
 | RegistrationProfile | Weekkaartprofiel > ProfileName
-| ClusterId  | Organigram > Identificatie
-| ClusterName  |    Organigram > Naam
 
 ## HelloID Docs
 
