@@ -27,11 +27,11 @@
 - [HelloID Docs](#helloid-docs)
 
 ## Introduction
-NedapONS is a healthcare application and provides a set of REST API's that allow you to programmatically interact with it's data.
+NedapOns is a healthcare application and provides a set of REST API's that allow you to programmatically interact with it's data.
 
 ## Getting Started
 
-The _HelloID-Conn-Prov-Target-NedapONS-Weekkaart_ connector can be executed only on-premises using the HelloID-Agent, because of the mapping file and required certificate to authorize with Nedap.
+The _HelloID-Conn-Prov-Target-NedapOns-Weekkaart_ connector can be executed only on-premises using the HelloID-Agent, because of the mapping file and required certificate to authorize with Nedap.
 
 ### Connection settings
 
@@ -46,14 +46,14 @@ The following settings are required to connect to the API.
 | CSV separation Character| Mapping File CSV Separation Character         |
 
 ### Remarks
-- This connector only correlates a HelloID person with one or more employee accounts in NedapONS and updates the registration profile. It updates the registration profile of all the accounts from the contracts in the conditions.
+- This connector only correlates a HelloID person with one or more employee accounts in NedapOns and updates the registration profile. It updates the registration profile of all the accounts from the contracts in the conditions.
 - To empty a weekkaartprofiel use the text '<geen weekkaartprofiel>' as a placeholder.
 
 ### Provisioning
 
 | Files       | Description                                             |
 | ----------- | ------------------------------------------              |
-| create.ps1  | Correlates a HelloID person with a NedapONS employee account and updates the registration profile |
+| create.ps1  | Correlates a HelloID person with a NedapOns employee account and updates the registration profile |
 | update.ps1  | The same script is used for both actions |
 ----------
 
