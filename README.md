@@ -1,4 +1,4 @@
-# HelloID-Conn-Prov-Target-NedapOns-Employee
+# HelloID-Conn-Prov-Target-NedapOns-Weekkaart
 
 > [!IMPORTANT]
 > This repository contains the connector and configuration code only. The implementer is responsible to acquire the connection details such as username, password, certificate, etc. You might even need to sign a contract or agreement with the supplier before implementing this connector. Please contact the client's application manager to coordinate the connector requirements.
@@ -15,14 +15,15 @@
    alt="drawing" style="width:300px;"/>
 </p>
 
-> [!IMPORTANT] **Upgrade Warning**
+> [!IMPORTANT]
+>  **Upgrade Warning**
 > Since the November 14, 2024 update, the connector has transitioned from using a single mapping file to **three separate files**.
 > If a customer prefers not to use the new structure, they can continue using the previous `NedapEmployeeMapping.csv` file by referencing the **same file three times** in the configuration—once for each mapping.
 
 
 ## Table of contents
 
-- [HelloID-Conn-Prov-Target-NedapOns-Employee](#helloid-conn-prov-target-nedapons-employee)
+- [HelloID-Conn-Prov-Target-NedapOns-Weekkaart](#helloid-conn-prov-target-nedapons-weekkaart)
   - [Table of contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Getting started](#getting-started)
