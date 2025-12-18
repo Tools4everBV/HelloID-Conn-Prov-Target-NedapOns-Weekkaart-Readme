@@ -287,11 +287,11 @@ To minimize this issue, you are able to filter in the import script to retrieve 
 ## Fact Sheet
 The following table displays an overview of the functionality for the Nedap Ons connector for HelloID Provisioning and Service Automation.
 
-| Type of action                       | Nedap | HelloID provisioning                                             | HelloID Service Automation |
-| ------------------------------------ | ----- | ---------------------------------------------------------------- | -------------------------- |
+| Type of action                       | Nedap | HelloID provisioning                                                         | HelloID Service Automation |
+| ------------------------------------ | ----- | ---------------------------------------------------------------------------- | -------------------------- |
 | Create Employees                     | Yes   | No, *Only the registration Profile (Weekkaart) will be set.*  no scheduling* | No                         |
 | Update Employees                     | Yes   | No, *Only the registration Profile (Weekkaart) will be set.*  no scheduling* | No                         |
-| Set registration Profile (Weekkaart) | Yes   | Yes, *Additional mapping required*                               | No                         |
+| Set registration Profile (Weekkaart) | Yes   | Yes, *Additional mapping required*                                           | No                         |
 
 
 ## Development resources
@@ -300,12 +300,12 @@ The following table displays an overview of the functionality for the Nedap Ons 
 
 The following endpoints are used by the connector
 
-| Endpoint                                   | Description                        | Type     |
-| ------------------------------------------ | ---------------------------------- | -------- |
-| /t/employees/by_identification_no/<id>     | Retrieve Employee Information      | Rest     |
-| /importws/import                           | CRUD Employee Information          | IOImport |
-| /t/employees/x-stream-connect/data         | Retrieve Employee Information List | Rest     |
-| /t/payroll/contracts/x-stream-connect/data | Retrieve Contract Information      | IOImport |
+| Endpoint                                               | Description                        | Type     |
+| ------------------------------------------------------ | ---------------------------------- | -------- |
+| /v0/administration/employees/by_identification_no/<id> | Retrieve Employee Information      | Rest     |
+| /importws/import                                       | CRUD Employee Information          | IOImport |
+| /v0/xstream/employees/data                             | Retrieve Employee Information List | Rest     |
+| /v0/xstream/contracts/data                             | Retrieve Contract Information      | IOImport |
 
 ### API documentation
 
